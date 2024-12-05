@@ -17,11 +17,6 @@ export class AboutComponent {
       pluginSelectorId: 'about-menu-instance'
     },
     {
-      label: $localize`PeerTube`,
-      routerLink: '/about/peertube',
-      pluginSelectorId: 'about-menu-peertube'
-    },
-    {
       label: $localize`Network`,
       routerLink: '/about/follows',
       pluginSelectorId: 'about-menu-network'
