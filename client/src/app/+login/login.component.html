@@ -10,14 +10,13 @@
   <ng-container *ngIf="!externalAuthError && !isAuthenticatedWithExternalAuth">
 
     <my-alert type="primary">
-      <h5 class="alert-heading" i18n>
-        Logging into an account lets you publish content
+      <h5 class="alert-heading">
+       登入雙龍體育TV 
       </h5>
 
       @if (signupAllowed) {
-        <p i18n>
-          This instance allows registration. However, be careful to check the <a class="link-primary terms-anchor d-inline" (click)="onTermsClick($event, instanceInformation)" href="/about/instance#terms">Terms</a><a class="terms-link" target="_blank" routerLink="/about/instance" fragment="terms">Terms</a> before creating an account.
-          You may also search for another instance to match your exact needs at: <a class="link-primary" href="https://joinpeertube.org/instances" target="_blank" rel="noopener noreferrer">https://joinpeertube.org/instances</a>.
+        <p>
+       請使用你當初購買TV填的電子郵件和密碼，如忘記密碼，請點忘記密碼
         </p>
       } @else {
         <p i18n>
